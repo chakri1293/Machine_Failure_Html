@@ -6,7 +6,7 @@ def main():
         html_content = f.read()
 
     # Display the HTML content
-    st.write(html_content, unsafe_allow_html=True)
-
+    st.markdown(html_content, unsafe_allow_html=True)
+    
 if __name__ == "__main__":
     main()
